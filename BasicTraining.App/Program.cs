@@ -9,7 +9,7 @@ namespace BasicTraining.App
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello Training!");
             Console.ReadLine();
         }
 
