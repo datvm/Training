@@ -16,7 +16,7 @@ namespace BasicTraining.App
         public static int DoSomething()
         {
             Thread.Sleep(1000);
-            return 1;
+            return 5;
         }
 
     }
