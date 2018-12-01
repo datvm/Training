@@ -22,8 +22,6 @@ namespace BasicTraining.Api.Models.Entities
         {
             modelBuilder.Entity<Category>(entity =>
             {
-                entity.HasIndex(e => e.Slug);
-
                 entity.Property(e => e.Name)
                     .IsRequired()
                     .HasMaxLength(100);
@@ -38,6 +36,8 @@ namespace BasicTraining.Api.Models.Entities
             {
                 entity.HasIndex(e => e.CategoryId)
                     .HasName("IX_Product_ByCategory");
+
+                entity.Property(e => e.CreatedTime).HasColumnType("datetime");
 
                 entity.Property(e => e.Name)
                     .IsRequired()
