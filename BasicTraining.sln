@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicTraining.Web", "BasicT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicTraining.App", "BasicTraining.App\BasicTraining.App.csproj", "{4D603C24-3E1A-4E31-8BA9-91D4A769A709}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "BasicTraining.Database", "BasicTraining.Database\BasicTraining.Database.sqlproj", "{F6A116EA-9144-4ED3-B50C-B5CA176F114C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,12 @@ Global
 		{4D603C24-3E1A-4E31-8BA9-91D4A769A709}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D603C24-3E1A-4E31-8BA9-91D4A769A709}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D603C24-3E1A-4E31-8BA9-91D4A769A709}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6A116EA-9144-4ED3-B50C-B5CA176F114C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6A116EA-9144-4ED3-B50C-B5CA176F114C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6A116EA-9144-4ED3-B50C-B5CA176F114C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F6A116EA-9144-4ED3-B50C-B5CA176F114C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6A116EA-9144-4ED3-B50C-B5CA176F114C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6A116EA-9144-4ED3-B50C-B5CA176F114C}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
