@@ -4,9 +4,12 @@
     [Name]        NVARCHAR (100) NOT NULL,
     [Slug]        VARCHAR (100)  NOT NULL,
     [Description] NVARCHAR (MAX) NULL,
+    [CreatedTime] DATETIME       NOT NULL,
     CONSTRAINT [PK_Product] PRIMARY KEY CLUSTERED ([Id] ASC),
     CONSTRAINT [FK_Product_Category] FOREIGN KEY ([CategoryId]) REFERENCES [dbo].[Category] ([Id])
 );
+
+
 
 
 GO
